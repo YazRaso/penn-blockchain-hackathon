@@ -1,10 +1,50 @@
-import { CheckpointPolicy } from "./types";
+import { Synapse } from "@filoz/synapse-sdk";
+import { privateKeyToAccount } from "viem/accounts";
 
-class AgentStorage {
-  constructor(
-    privateKey: string,
-    rpcURL: string,
-    wallet: any,
-    checkpointPolicy: CheckpointPolicy,
+import { CheckpointPolicy } from "./types.ts";
+
+/**
+ * AgentStorage is a singleton class responsible for managing the storage
+ * of an agent's state and checkpoints on Filecoin Onchain Cloud using the Synapse SDK.
+ */
+export default class AgentStorage {
+  private constructor(
+    private readonly filecoinClient: ReturnType<typeof Synapse.create>,
+    _privateKey: string,
+    _wallet: unknown,
+    _checkpointPolicy: CheckpointPolicy,
   ) {}
+
+  static async create(
+    privateKey: string,
+    wallet: unknown,
+    checkpointPolicy: CheckpointPolicy,
+  ) {
+    // setup synapase instance
+    const filecoinClient = Synapse.create({
+      account: privateKeyToAccount(`0x${privateKey}`),
+      source: "agent-storage",
+    });
+
+    return new AgentStorage(
+      filecoinClient,
+      privateKey,
+      wallet,
+      checkpointPolicy,
+    );
+  }
+
+  // primitive methods
+
+  private async _store(data: unknown): Promise<string> {
+    const bytes = Buffer.from(JSON.stringify(data));
+    const result = await this.filecoinClient.storage.upload(bytes);
+    return result.pieceCid.toString();
+  }
+
+  private async _retrieve(pieceCid: string): Promise<string> {
+    const bytes = await this.filecoinClient.storage.download({ pieceCid });
+    const decodedText = new TextDecoder().decode(bytes);
+    return decodedText;
+  }
 }
