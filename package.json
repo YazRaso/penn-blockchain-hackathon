@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "run:synapse-test": "tsx tests/integration/test_synapase.ts"
+  },
+  "dependencies": {
+    "@filoz/synapse-sdk": "^0.40.0",
+    "viem": "^2.47.6"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
