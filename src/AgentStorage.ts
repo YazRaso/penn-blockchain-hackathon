@@ -34,8 +34,10 @@ export default class AgentStorage {
     );
   }
 
-  // primitive methods
-
+  /** primitive methods for storing and retrieving data
+   * Note: These are internal methods and not exposed as part of the public API.
+   * They are used for internal library use.
+   */
   private async _store(data: unknown): Promise<string> {
     const bytes = Buffer.from(JSON.stringify(data));
     const result = await this.filecoinClient.storage.upload(bytes);
