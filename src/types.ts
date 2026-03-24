@@ -1,6 +1,14 @@
+// Types
 type CheckpointPolicy = {
   after: string[];
   every: number;
 };
 
-export { CheckpointPolicy };
+// Interfaces
+interface WalletConfiguration {
+  maxTransactionCost: number;
+  lowBudgetThreshold: number;
+  onLowBudget?: () => Promise<void>;
+}
+
+export { CheckpointPolicy, WalletConfiguration };
