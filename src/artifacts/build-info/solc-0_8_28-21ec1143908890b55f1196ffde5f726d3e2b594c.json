@@ -1,0 +1,39 @@
+{
+  "_format": "hh3-sol-build-info-1",
+  "id": "solc-0_8_28-21ec1143908890b55f1196ffde5f726d3e2b594c",
+  "solcVersion": "0.8.28",
+  "solcLongVersion": "0.8.28+commit.7893614a",
+  "userSourceNameMap": {
+    "contracts/OnchainRegistry.sol": "project/contracts/OnchainRegistry.sol"
+  },
+  "input": {
+    "language": "Solidity",
+    "settings": {
+      "evmVersion": "cancun",
+      "optimizer": {
+        "enabled": true,
+        "runs": 200
+      },
+      "outputSelection": {
+        "*": {
+          "": [
+            "ast"
+          ],
+          "*": [
+            "abi",
+            "evm.bytecode",
+            "evm.deployedBytecode",
+            "evm.methodIdentifiers",
+            "metadata"
+          ]
+        }
+      },
+      "remappings": []
+    },
+    "sources": {
+      "project/contracts/OnchainRegistry.sol": {
+        "content": "// SPDX-License-Identifier: SEE LICENSE IN LICENSE\npragma solidity ^0.8.19;\n\ncontract AgentRegistry {\n    address private owner;\n    mapping(string => string) private latestPieceCid;\n\n    event CheckpointUpdated(string indexed agentId, string pieceCid);\n\n    constructor() {\n        owner = msg.sender;\n    }\n\n    function update(string calldata agentId, string calldata pieceCid) external {\n        require(msg.sender == owner, \"Not the owner\");\n        latestPieceCid[agentId] = pieceCid;\n        emit CheckpointUpdated(agentId, pieceCid);\n    }\n\n    function lookup(string calldata agentId) external view returns (string memory) {\n        return latestPieceCid[agentId];\n    }\n}"
+      }
+    }
+  }
+}
