@@ -3,16 +3,16 @@
  *
  */
 import { Synapse } from "@filoz/synapse-sdk";
-import { WalletConfiguration } from "./types.ts";
+import { WalletConfiguration } from "@sdk/types";
 import {
   AgentStorageError,
   InsufficientFundsError,
   MaxTransactionCostExceededError,
   LowBudgetCallbackError,
   WalletAssertionError,
-} from "./errors.ts";
+} from "@sdk/errors";
 
-class AgentWallet {
+export class AgentWallet {
   constructor(
     private filecoinClient: Synapse,
     private walletConfig: WalletConfiguration,

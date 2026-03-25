@@ -1,7 +1,7 @@
 import { describe, beforeEach, it, vi, expect } from "vitest";
-import { AgentWallet } from "../../src/wallet/AgentWallet";
-import { WalletConfiguration } from "../../src/types";
-import { WalletAssertionError } from "../../src/errors";
+import { AgentWallet } from "@sdk/wallet/AgentWallet";
+import { WalletConfiguration } from "@sdk/types";
+import { WalletAssertionError } from "@sdk/errors";
 
 describe("AgentWallet.assertSufficientFunds", () => {
   let mockWallet: AgentWallet;
