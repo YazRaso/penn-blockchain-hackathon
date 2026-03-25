@@ -8,8 +8,16 @@
     "viem": "^2.47.6"
   },
   "devDependencies": {
+    "@typescript-eslint/parser": "^8.57.2",
+    "eslint": "^8.57.1",
+    "eslint-plugin-jsdoc": "^62.8.0",
+    "eslint-plugin-tsdoc": "^0.5.2",
     "ts-node": "^10.9.2",
     "tsx": "^4.21.0",
-    "typescript": "^5.9.3"
+    "typedoc": "^0.28.18",
+    "typedoc-material-theme": "^1.4.1",
+    "typedoc-plugin-markdown": "^4.11.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.1"
   }
 }
