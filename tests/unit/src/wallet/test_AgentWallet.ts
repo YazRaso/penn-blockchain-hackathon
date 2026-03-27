@@ -6,7 +6,7 @@ import { WalletAssertionError } from "@sdk/errors";
 describe("AgentWallet.assertSufficientFunds", () => {
   let mockWallet: AgentWallet;
   let mockConfig: WalletConfiguration;
-  let mockSynapse: any;
+  let mockSynapse: { payments: { walletBalance: ReturnType<typeof vi.fn> } };
 
   beforeEach(() => {
     mockSynapse = {

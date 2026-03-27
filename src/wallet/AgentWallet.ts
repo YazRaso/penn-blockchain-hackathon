@@ -1,35 +1,51 @@
 /**
- * AgentWallet is responsible for enforcing an agent policy based on WalletConfiguration.
- *
+ * Enforces wallet funding policy for storage operations.
  */
 import { Synapse } from "@filoz/synapse-sdk";
-import { WalletConfiguration } from "@sdk/types";
+import { WalletConfiguration } from "@sdk/types.js";
 import {
   AgentStorageError,
   InsufficientFundsError,
   MaxTransactionCostExceededError,
   LowBudgetCallbackError,
   WalletAssertionError,
-} from "@sdk/errors";
+} from "@sdk/errors.js";
 
 export class AgentWallet {
+  /**
+   * Creates a wallet policy wrapper over the Synapse payments client.
+   *
+   * @param filecoinClient Synapse client used to query wallet balance.
+   * @param walletConfig Funding policy constraints and callbacks.
+   */
   constructor(
     private filecoinClient: Synapse,
     private walletConfig: WalletConfiguration,
   ) {}
 
-  // getBalance gets the balance of the agent's wallet
+  /**
+   * Returns the current wallet balance.
+   *
+   * @returns The available balance in base units.
+   * @throws AgentStorageError If the balance query fails.
+   */
   async getBalance(): Promise<bigint> {
     try {
       return await this.filecoinClient.payments.walletBalance();
-    } catch (e) {
-      throw new AgentStorageError(`Failed to get wallet balance: ${e.message}`);
+    } catch (e: unknown) {
+      const msg = e instanceof Error ? e.message : String(e);
+      throw new AgentStorageError(`Failed to get wallet balance: ${msg}`);
     }
   }
 
-  // assertSufficientFunds checks if a wallet has sufficient funds based on walletConfig
+  /**
+   * Validates that a transaction cost satisfies the configured wallet policy.
+   *
+   * @param cost Estimated transaction cost to validate.
+   * @throws WalletAssertionError If one or more policy checks fail.
+   */
   async assertSufficientFunds(cost: bigint): Promise<void> {
-    let errors = [];
+    const errors: AgentStorageError[] = [];
     const balance = await this.getBalance();
 
     if (cost > balance) {
@@ -54,10 +70,12 @@ export class AgentWallet {
     if (balance < this.walletConfig.lowBudgetThreshold) {
       try {
         await this.walletConfig.onLowBudget?.();
-      } catch (e) {
+      } catch (e: unknown) {
+        const msg = e instanceof Error ? e.message : String(e);
+        const stack = e instanceof Error ? e.stack : undefined;
         errors.push(
           new LowBudgetCallbackError(
-            `Low budget callback failed: ${e.message}, this was caused by ${e.stack}`,
+            `Low budget callback failed: ${msg}${stack ? `, this was caused by ${stack}` : ""}`,
           ),
         );
       }
