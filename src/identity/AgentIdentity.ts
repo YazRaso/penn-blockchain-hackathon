@@ -6,8 +6,8 @@
  *
  * 1. Creates an ERC-8004 agent card JSON on first run
  * 2. Uploads the agent card to Filecoin via Synapse SDK
- * 3. Registers the agent as an NFT on Base Sepolia using the ERC-8004
- *    Identity Registry at 0x8004A818BFB912233c491871b3d84c89A494BD9e
+ * 3. Registers the agent as an NFT on Base (calibnet or mainnet) using
+ *    the network-specific ERC-8004 Identity Registry
  * 4. Updates the agent card with the latest pieceCid on every checkpoint
  *
  * The agent card includes a custom `latestPieceCid` field that points to the
@@ -28,20 +28,17 @@ import {
   zeroAddress,
 } from "viem";
 import { privateKeyToAccount, type PrivateKeyAccount } from "viem/accounts";
-import { baseSepolia } from "viem/chains";
 import { type Synapse } from "@filoz/synapse-sdk";
+import {
+  NETWORK_CONSTANTS,
+  type NetworkConstants,
+  type NetworkName,
+} from "@sdk/constants.js";
 import { AgentStorageError } from "@sdk/errors.js";
 
 // ---------------------------------------------------------------------------
 // Constants
 // ---------------------------------------------------------------------------
-
-/** ERC-8004 Identity Registry on Base Sepolia */
-const ERC8004_REGISTRY_ADDRESS =
-  "0x8004A818BFB912233c491871b3d84c89A494BD9e" as const;
-
-/** Base Sepolia public RPC */
-const BASE_SEPOLIA_RPC = "https://sepolia.base.org" as const;
 
 /**
  * Minimal ABI surface we need from the ERC-8004 Identity Registry.
@@ -123,6 +120,7 @@ export class AgentIdentity {
     private readonly publicClient: PublicClient,
     private readonly walletClient: WalletClient,
     private readonly account: PrivateKeyAccount,
+    private readonly networkConstants: NetworkConstants,
     agentCard: AgentCard,
     tokenId: bigint | null,
     cardPieceCid: string | null,
@@ -142,7 +140,7 @@ export class AgentIdentity {
    * On first run (no existing tokenId supplied) the method will:
    *  1. Build the agent card JSON
    *  2. Upload it to Filecoin via Synapse
-   *  3. Register the agent on the ERC-8004 Identity Registry (Base Sepolia)
+  *  3. Register the agent on the ERC-8004 Identity Registry for the selected network
    *
    * On subsequent runs supply the `existingTokenId` returned from a previous
    * run so the module skips re-registration.
@@ -151,25 +149,27 @@ export class AgentIdentity {
     privateKey: string,
     filecoinClient: Synapse,
     config: AgentIdentityConfig,
+    network: NetworkName = "calibnet",
     existingTokenId?: bigint,
   ): Promise<AgentIdentity> {
     const account = privateKeyToAccount(`0x${privateKey}` as Hex);
+    const networkConstants = NETWORK_CONSTANTS[network];
 
     const publicClient = createPublicClient({
-      chain: baseSepolia,
-      transport: http(BASE_SEPOLIA_RPC),
+      chain: networkConstants.chain,
+      transport: http(networkConstants.rpcUrls.base),
     });
 
     const walletClient = createWalletClient({
-      chain: baseSepolia,
-      transport: http(BASE_SEPOLIA_RPC),
+      chain: networkConstants.chain,
+      transport: http(networkConstants.rpcUrls.base),
       account,
     });
 
     // -- Build agent card ---------------------------------------------------
     const walletEndpoint: AgentEndpoint = {
       name: "agentWallet",
-      endpoint: `eip155:84532:${account.address}`,
+      endpoint: `${networkConstants.chainNamespace}:${account.address}`,
     };
 
     const agentCard: AgentCard = {
@@ -185,7 +185,11 @@ export class AgentIdentity {
 
     const detectedTokenId =
       existingTokenId ??
-      (await AgentIdentity._findExistingTokenId(publicClient, account.address));
+      (await AgentIdentity._findExistingTokenId(
+        publicClient,
+        account.address,
+        networkConstants.erc8004RegistryAddress,
+      ));
 
     // If we already have a tokenId, just look up the on-chain card and restore
     if (detectedTokenId !== undefined) {
@@ -194,6 +198,7 @@ export class AgentIdentity {
         publicClient,
         walletClient,
         account,
+        networkConstants,
         agentCard,
         detectedTokenId,
         null,
@@ -210,6 +215,7 @@ export class AgentIdentity {
       publicClient,
       walletClient,
       account,
+      networkConstants,
       agentCard,
       null,
       null,
@@ -292,12 +298,12 @@ export class AgentIdentity {
     const tokenURI = `filecoin://${cardCid}`;
     try {
       const hash = await this.walletClient.writeContract({
-        address: ERC8004_REGISTRY_ADDRESS,
+        address: this.networkConstants.erc8004RegistryAddress,
         abi: ERC8004_ABI,
         functionName: "setAgentURI",
         args: [this.tokenId, tokenURI],
         account: this.account,
-        chain: baseSepolia,
+        chain: this.networkConstants.chain,
       });
 
       const receipt = await this.publicClient.waitForTransactionReceipt({
@@ -330,12 +336,12 @@ export class AgentIdentity {
     // 3. Register on Base Sepolia
     try {
       const hash = await this.walletClient.writeContract({
-        address: ERC8004_REGISTRY_ADDRESS,
+        address: this.networkConstants.erc8004RegistryAddress,
         abi: ERC8004_ABI,
         functionName: "register",
         args: [tokenURI],
         account: this.account,
-        chain: baseSepolia,
+        chain: this.networkConstants.chain,
       });
 
       const receipt = await this.publicClient.waitForTransactionReceipt({
@@ -352,8 +358,8 @@ export class AgentIdentity {
       // 5. Record the on-chain registration in the agent card
       this.agentCard.registrations = [
         {
-          chain: "eip155:84532",
-          contractAddress: ERC8004_REGISTRY_ADDRESS,
+          chain: this.networkConstants.chainNamespace,
+          contractAddress: this.networkConstants.erc8004RegistryAddress,
           tokenId: this.tokenId!.toString(),
         },
       ];
@@ -380,7 +386,7 @@ export class AgentIdentity {
     try {
       // Read tokenURI from on-chain
       const tokenURI = (await this.publicClient.readContract({
-        address: ERC8004_REGISTRY_ADDRESS,
+        address: this.networkConstants.erc8004RegistryAddress,
         abi: ERC8004_ABI,
         functionName: "tokenURI",
         args: [this.tokenId],
@@ -416,6 +422,7 @@ export class AgentIdentity {
   private static async _findExistingTokenId(
     publicClient: PublicClient,
     owner: Hex,
+    erc8004RegistryAddress: `0x${string}`,
   ): Promise<bigint | undefined> {
     try {
       const latestBlock = await publicClient.getBlockNumber();
@@ -429,7 +436,7 @@ export class AgentIdentity {
         const fromBlock = toBlock > chunkSize ? toBlock - chunkSize : 0n;
 
         const transferEvents = await publicClient.getContractEvents({
-          address: ERC8004_REGISTRY_ADDRESS,
+          address: erc8004RegistryAddress,
           abi: ERC8004_ABI,
           eventName: "Transfer",
           args: {
@@ -447,7 +454,7 @@ export class AgentIdentity {
 
             try {
               const currentOwner = (await publicClient.readContract({
-                address: ERC8004_REGISTRY_ADDRESS,
+                address: erc8004RegistryAddress,
                 abi: ERC8004_ABI,
                 functionName: "ownerOf",
                 args: [tokenId],
@@ -486,7 +493,8 @@ export class AgentIdentity {
 
     for (const log of logs) {
       if (
-        log.address.toLowerCase() === ERC8004_REGISTRY_ADDRESS.toLowerCase() &&
+        log.address.toLowerCase() ===
+          this.networkConstants.erc8004RegistryAddress.toLowerCase() &&
         log.topics[0] === TRANSFER_TOPIC
       ) {
         // tokenId is the 4th topic (index 3) in the Transfer event

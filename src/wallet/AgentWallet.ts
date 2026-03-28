@@ -11,6 +11,9 @@ import {
   WalletAssertionError,
 } from "@sdk/errors.js";
 
+/**
+ * Applies wallet policy checks to Synapse payment operations.
+ */
 export class AgentWallet {
   /**
    * Creates a wallet policy wrapper over the Synapse payments client.

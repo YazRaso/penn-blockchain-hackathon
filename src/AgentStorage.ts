@@ -1,6 +1,7 @@
 import { Synapse } from "@filoz/synapse-sdk";
 import { privateKeyToAccount } from "viem/accounts";
 
+import { type NetworkName } from "@sdk/constants.js";
 import { AgentStorageError } from "@sdk/errors.js";
 import { AgentIdentity, type AgentIdentityConfig } from "@sdk/identity/AgentIdentity.js";
 import { AgentWallet } from "@sdk/wallet/AgentWallet.js";
@@ -28,6 +29,12 @@ export interface AgentStorageConfig {
   /** ERC-8004 agent identity configuration. */
   identity: AgentIdentityConfig;
   /**
+   * Runtime network. Defaults to `calibnet`.
+   * - `calibnet` uses Base Sepolia
+   * - `mainnet` uses Base Mainnet
+   */
+  network?: NetworkName;
+  /**
    * ERC-721 tokenId from a previous run.
    * Supply this on every run after the first to skip re-registration.
    */
@@ -44,7 +51,7 @@ export interface AgentStorageConfig {
 // ---------------------------------------------------------------------------
 
 /**
- * Main entry point for the Agent Storage SDK.
+ * Main entry point for the Cleft SDK.
  *
  * Coordinates all storage modules: wallet policy, checkpoint persistence,
  * append-only logging, and ERC-8004 agent identity.
@@ -84,10 +91,12 @@ export default class AgentStorage {
    * @returns A fully wired `AgentStorage` instance, ready to use.
    */
   static async create(config: AgentStorageConfig): Promise<AgentStorage> {
+    const network = config.network ?? "calibnet";
+
     // 1. Establish Synapse / Filecoin connection
     const filecoinClient = await Synapse.create({
       account: privateKeyToAccount(`0x${config.privateKey}`),
-      source: "agent-storage",
+      source: "cleft",
     });
 
     // 2. Bind storage primitives as injectable closures.
@@ -124,6 +133,7 @@ export default class AgentStorage {
       config.privateKey,
       filecoinClient,
       config.identity,
+      network,
       config.existingTokenId,
     );
 

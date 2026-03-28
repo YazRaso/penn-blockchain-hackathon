@@ -1,5 +1,5 @@
 /**
- * Agent Storage SDK — public API surface.
+ * Cleft SDK — public API surface.
  *
  * Import everything consumers need from this single entry point.
  * Internal types (CheckpointStoreDeps, LogStoreDeps, etc.) are intentionally
@@ -62,3 +62,7 @@ export {
 
 // Vercel AI adapter
 export { createAgentStorageTools } from "@sdk/adapters/vercel-ai.js";
+
+// Network constants
+export { NETWORK_CONSTANTS } from "@sdk/constants.js";
+export type { NetworkName, NetworkConstants } from "@sdk/constants.js";
