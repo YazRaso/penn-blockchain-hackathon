@@ -1,0 +1,23 @@
+{
+  "id": "api/types/interfaces/WalletConfiguration",
+  "title": "Interface: WalletConfiguration",
+  "description": "Defined in17",
+  "source": "@site/docs/api/types/interfaces/WalletConfiguration.md",
+  "sourceDirName": "api/types/interfaces",
+  "slug": "/api/types/interfaces/WalletConfiguration",
+  "permalink": "/penn-blockchain-hackathon/docs/api/types/interfaces/WalletConfiguration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Interface: LogEntry",
+    "permalink": "/penn-blockchain-hackathon/docs/api/types/interfaces/LogEntry"
+  },
+  "next": {
+    "title": "wallet/AgentWallet",
+    "permalink": "/penn-blockchain-hackathon/docs/api/wallet/AgentWallet/"
+  }
+}

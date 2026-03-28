@@ -1,0 +1,309 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "getting-started",
+          "docs": [
+            {
+              "id": "api/adapters/vercel-ai/functions/createAgentStorageTools",
+              "path": "/docs/api/adapters/vercel-ai/functions/createAgentStorageTools",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/adapters/vercel-ai/index",
+              "path": "/docs/api/adapters/vercel-ai/",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/AgentStorage/classes/default",
+              "path": "/docs/api/AgentStorage/classes/default",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/AgentStorage/index",
+              "path": "/docs/api/AgentStorage/",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/AgentStorage/interfaces/AgentStorageConfig",
+              "path": "/docs/api/AgentStorage/interfaces/AgentStorageConfig",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/constants/index",
+              "path": "/docs/api/constants/",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/constants/interfaces/NetworkConstants",
+              "path": "/docs/api/constants/interfaces/NetworkConstants",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/constants/type-aliases/NetworkName",
+              "path": "/docs/api/constants/type-aliases/NetworkName",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/constants/variables/NETWORK_CONSTANTS",
+              "path": "/docs/api/constants/variables/NETWORK_CONSTANTS",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/AgentStorageError",
+              "path": "/docs/api/errors/classes/AgentStorageError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/ConfigurationError",
+              "path": "/docs/api/errors/classes/ConfigurationError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/CorruptionError",
+              "path": "/docs/api/errors/classes/CorruptionError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/DataLostError",
+              "path": "/docs/api/errors/classes/DataLostError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/DealExpiredError",
+              "path": "/docs/api/errors/classes/DealExpiredError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/DealRejectedError",
+              "path": "/docs/api/errors/classes/DealRejectedError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/FatalError",
+              "path": "/docs/api/errors/classes/FatalError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/InsufficientFundsError",
+              "path": "/docs/api/errors/classes/InsufficientFundsError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/LowBudgetCallbackError",
+              "path": "/docs/api/errors/classes/LowBudgetCallbackError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/MaxTransactionCostExceededError",
+              "path": "/docs/api/errors/classes/MaxTransactionCostExceededError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/MissingConfigError",
+              "path": "/docs/api/errors/classes/MissingConfigError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/NetworkError",
+              "path": "/docs/api/errors/classes/NetworkError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/PolicyViolationError",
+              "path": "/docs/api/errors/classes/PolicyViolationError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/ProviderBusyError",
+              "path": "/docs/api/errors/classes/ProviderBusyError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/RecoverableError",
+              "path": "/docs/api/errors/classes/RecoverableError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/TransientError",
+              "path": "/docs/api/errors/classes/TransientError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/UnknownTriggerError",
+              "path": "/docs/api/errors/classes/UnknownTriggerError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/classes/WalletAssertionError",
+              "path": "/docs/api/errors/classes/WalletAssertionError",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/errors/index",
+              "path": "/docs/api/errors/",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/identity/AgentIdentity/classes/AgentIdentity",
+              "path": "/docs/api/identity/AgentIdentity/classes/AgentIdentity",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/identity/AgentIdentity/index",
+              "path": "/docs/api/identity/AgentIdentity/",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/identity/AgentIdentity/interfaces/AgentCard",
+              "path": "/docs/api/identity/AgentIdentity/interfaces/AgentCard",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/identity/AgentIdentity/interfaces/AgentEndpoint",
+              "path": "/docs/api/identity/AgentIdentity/interfaces/AgentEndpoint",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/identity/AgentIdentity/interfaces/AgentIdentityConfig",
+              "path": "/docs/api/identity/AgentIdentity/interfaces/AgentIdentityConfig",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/identity/AgentIdentity/interfaces/AgentRegistration",
+              "path": "/docs/api/identity/AgentIdentity/interfaces/AgentRegistration",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/index",
+              "path": "/docs/api/",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/index/index",
+              "path": "/docs/api/index/",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/modules",
+              "path": "/docs/api/modules",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/policy/classes/CheckpointPolicy",
+              "path": "/docs/api/policy/classes/CheckpointPolicy",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/policy/index",
+              "path": "/docs/api/policy/",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/storage/CheckpointStore/classes/CheckpointStore",
+              "path": "/docs/api/storage/CheckpointStore/classes/CheckpointStore",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/storage/CheckpointStore/index",
+              "path": "/docs/api/storage/CheckpointStore/",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/storage/LogStore/classes/LogStore",
+              "path": "/docs/api/storage/LogStore/classes/LogStore",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/storage/LogStore/index",
+              "path": "/docs/api/storage/LogStore/",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/types/index",
+              "path": "/docs/api/types/",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/types/interfaces/CheckpointEnvelope",
+              "path": "/docs/api/types/interfaces/CheckpointEnvelope",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/types/interfaces/CheckpointPolicyConfig",
+              "path": "/docs/api/types/interfaces/CheckpointPolicyConfig",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/types/interfaces/HealthReport",
+              "path": "/docs/api/types/interfaces/HealthReport",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/types/interfaces/LogEntry",
+              "path": "/docs/api/types/interfaces/LogEntry",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/types/interfaces/WalletConfiguration",
+              "path": "/docs/api/types/interfaces/WalletConfiguration",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/wallet/AgentWallet/classes/AgentWallet",
+              "path": "/docs/api/wallet/AgentWallet/classes/AgentWallet",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "api/wallet/AgentWallet/index",
+              "path": "/docs/api/wallet/AgentWallet/",
+              "sidebar": "apiSidebar"
+            },
+            {
+              "id": "examples/calibnet-workflow",
+              "path": "/docs/examples/calibnet-workflow",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "examples/index",
+              "path": "/docs/examples/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "examples/vercel-ai-adapter",
+              "path": "/docs/examples/vercel-ai-adapter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started",
+              "path": "/docs/getting-started",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/getting-started",
+                "label": "getting-started"
+              }
+            },
+            "apiSidebar": {
+              "link": {
+                "path": "/docs/api/AgentStorage/",
+                "label": "AgentStorage"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

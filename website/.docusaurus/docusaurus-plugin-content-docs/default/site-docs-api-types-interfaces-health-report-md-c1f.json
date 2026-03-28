@@ -1,0 +1,23 @@
+{
+  "id": "api/types/interfaces/HealthReport",
+  "title": "Interface: HealthReport",
+  "description": "Defined in52",
+  "source": "@site/docs/api/types/interfaces/HealthReport.md",
+  "sourceDirName": "api/types/interfaces",
+  "slug": "/api/types/interfaces/HealthReport",
+  "permalink": "/penn-blockchain-hackathon/docs/api/types/interfaces/HealthReport",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Interface: CheckpointPolicyConfig",
+    "permalink": "/penn-blockchain-hackathon/docs/api/types/interfaces/CheckpointPolicyConfig"
+  },
+  "next": {
+    "title": "Interface: LogEntry",
+    "permalink": "/penn-blockchain-hackathon/docs/api/types/interfaces/LogEntry"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "api/errors/classes/ProviderBusyError",
+  "title": "Class: ProviderBusyError",
+  "description": "Defined in22",
+  "source": "@site/docs/api/errors/classes/ProviderBusyError.md",
+  "sourceDirName": "api/errors/classes",
+  "slug": "/api/errors/classes/ProviderBusyError",
+  "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/ProviderBusyError",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Class: PolicyViolationError",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/PolicyViolationError"
+  },
+  "next": {
+    "title": "Class: RecoverableError",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/RecoverableError"
+  }
+}

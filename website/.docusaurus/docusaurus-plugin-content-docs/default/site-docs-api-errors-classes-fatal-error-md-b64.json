@@ -1,0 +1,23 @@
+{
+  "id": "api/errors/classes/FatalError",
+  "title": "Class: FatalError",
+  "description": "Defined in98",
+  "source": "@site/docs/api/errors/classes/FatalError.md",
+  "sourceDirName": "api/errors/classes",
+  "slug": "/api/errors/classes/FatalError",
+  "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/FatalError",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Class: DealRejectedError",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/DealRejectedError"
+  },
+  "next": {
+    "title": "Class: InsufficientFundsError",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/InsufficientFundsError"
+  }
+}

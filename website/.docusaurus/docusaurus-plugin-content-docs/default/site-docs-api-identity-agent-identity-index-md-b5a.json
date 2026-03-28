@@ -1,0 +1,23 @@
+{
+  "id": "api/identity/AgentIdentity/index",
+  "title": "identity/AgentIdentity",
+  "description": "Classes",
+  "source": "@site/docs/api/identity/AgentIdentity/index.md",
+  "sourceDirName": "api/identity/AgentIdentity",
+  "slug": "/api/identity/AgentIdentity/",
+  "permalink": "/penn-blockchain-hackathon/docs/api/identity/AgentIdentity/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Class: WalletAssertionError",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/WalletAssertionError"
+  },
+  "next": {
+    "title": "Class: AgentIdentity",
+    "permalink": "/penn-blockchain-hackathon/docs/api/identity/AgentIdentity/classes/AgentIdentity"
+  }
+}

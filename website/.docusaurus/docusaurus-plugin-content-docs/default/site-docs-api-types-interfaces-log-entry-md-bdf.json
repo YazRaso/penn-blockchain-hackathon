@@ -1,0 +1,23 @@
+{
+  "id": "api/types/interfaces/LogEntry",
+  "title": "Interface: LogEntry",
+  "description": "Defined in43",
+  "source": "@site/docs/api/types/interfaces/LogEntry.md",
+  "sourceDirName": "api/types/interfaces",
+  "slug": "/api/types/interfaces/LogEntry",
+  "permalink": "/penn-blockchain-hackathon/docs/api/types/interfaces/LogEntry",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Interface: HealthReport",
+    "permalink": "/penn-blockchain-hackathon/docs/api/types/interfaces/HealthReport"
+  },
+  "next": {
+    "title": "Interface: WalletConfiguration",
+    "permalink": "/penn-blockchain-hackathon/docs/api/types/interfaces/WalletConfiguration"
+  }
+}

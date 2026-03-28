@@ -1,0 +1,22 @@
+{
+  "id": "examples/vercel-ai-adapter",
+  "title": "Vercel AI Adapter",
+  "description": "Use createAgentStorageTools() to expose SDK capabilities as AI tools.",
+  "source": "@site/docs/examples/vercel-ai-adapter.md",
+  "sourceDirName": "examples",
+  "slug": "/examples/vercel-ai-adapter",
+  "permalink": "/penn-blockchain-hackathon/docs/examples/vercel-ai-adapter",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Calibnet Workflow Example",
+    "permalink": "/penn-blockchain-hackathon/docs/examples/calibnet-workflow"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "api/modules",
+  "title": "cleft",
+  "description": "Modules",
+  "source": "@site/docs/api/modules.md",
+  "sourceDirName": "api",
+  "slug": "/api/modules",
+  "permalink": "/docs/api/modules",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Cleft SDK",
+    "permalink": "/docs/api/"
+  },
+  "next": {
+    "title": "policy",
+    "permalink": "/docs/api/policy/"
+  }
+}

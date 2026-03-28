@@ -1,0 +1,23 @@
+{
+  "id": "api/components/HomepageFeatures/index",
+  "title": "components/HomepageFeatures",
+  "description": "Functions",
+  "source": "@site/docs/api/components/HomepageFeatures/index.md",
+  "sourceDirName": "api/components/HomepageFeatures",
+  "slug": "/api/components/HomepageFeatures/",
+  "permalink": "/docs/api/components/HomepageFeatures/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Interface: AgentRegistry$Type",
+    "permalink": "/docs/api/artifacts/contracts/OnchainRegistry.sol/artifacts/interfaces/AgentRegistry$Type"
+  },
+  "next": {
+    "title": "Function: default()",
+    "permalink": "/docs/api/components/HomepageFeatures/functions/default"
+  }
+}

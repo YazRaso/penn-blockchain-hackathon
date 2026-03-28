@@ -1,0 +1,23 @@
+{
+  "id": "api/storage/LogStore/classes/LogStore",
+  "title": "Class: LogStore",
+  "description": "Defined in15",
+  "source": "@site/docs/api/storage/LogStore/classes/LogStore.md",
+  "sourceDirName": "api/storage/LogStore/classes",
+  "slug": "/api/storage/LogStore/classes/LogStore",
+  "permalink": "/penn-blockchain-hackathon/docs/api/storage/LogStore/classes/LogStore",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "storage/LogStore",
+    "permalink": "/penn-blockchain-hackathon/docs/api/storage/LogStore/"
+  },
+  "next": {
+    "title": "types",
+    "permalink": "/penn-blockchain-hackathon/docs/api/types/"
+  }
+}

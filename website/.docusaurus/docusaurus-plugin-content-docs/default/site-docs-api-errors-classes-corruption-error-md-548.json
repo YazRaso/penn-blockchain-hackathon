@@ -1,0 +1,23 @@
+{
+  "id": "api/errors/classes/CorruptionError",
+  "title": "Class: CorruptionError",
+  "description": "Defined in104",
+  "source": "@site/docs/api/errors/classes/CorruptionError.md",
+  "sourceDirName": "api/errors/classes",
+  "slug": "/api/errors/classes/CorruptionError",
+  "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/CorruptionError",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Class: ConfigurationError",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/ConfigurationError"
+  },
+  "next": {
+    "title": "Class: DataLostError",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/DataLostError"
+  }
+}

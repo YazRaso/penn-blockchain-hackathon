@@ -1,0 +1,23 @@
+{
+  "id": "api/artifacts/artifacts/index",
+  "title": "artifacts/artifacts",
+  "description": "",
+  "source": "@site/docs/api/artifacts/artifacts/index.md",
+  "sourceDirName": "api/artifacts/artifacts",
+  "slug": "/api/artifacts/artifacts/",
+  "permalink": "/docs/api/artifacts/artifacts/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Function: createAgentStorageTools()",
+    "permalink": "/docs/api/adapters/vercel-ai/functions/createAgentStorageTools"
+  },
+  "next": {
+    "title": "artifacts/contracts/OnchainRegistry.sol/artifacts",
+    "permalink": "/docs/api/artifacts/contracts/OnchainRegistry.sol/artifacts/"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "api/identity/AgentIdentity/interfaces/AgentCard",
+  "title": "Interface: AgentCard",
+  "description": "Defined in64",
+  "source": "@site/docs/api/identity/AgentIdentity/interfaces/AgentCard.md",
+  "sourceDirName": "api/identity/AgentIdentity/interfaces",
+  "slug": "/api/identity/AgentIdentity/interfaces/AgentCard",
+  "permalink": "/penn-blockchain-hackathon/docs/api/identity/AgentIdentity/interfaces/AgentCard",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Class: AgentIdentity",
+    "permalink": "/penn-blockchain-hackathon/docs/api/identity/AgentIdentity/classes/AgentIdentity"
+  },
+  "next": {
+    "title": "Interface: AgentEndpoint",
+    "permalink": "/penn-blockchain-hackathon/docs/api/identity/AgentIdentity/interfaces/AgentEndpoint"
+  }
+}

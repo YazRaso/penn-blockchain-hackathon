@@ -1,0 +1,23 @@
+{
+  "id": "api/types/index",
+  "title": "types",
+  "description": "Interfaces",
+  "source": "@site/docs/api/types/index.md",
+  "sourceDirName": "api/types",
+  "slug": "/api/types/",
+  "permalink": "/penn-blockchain-hackathon/docs/api/types/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Class: LogStore",
+    "permalink": "/penn-blockchain-hackathon/docs/api/storage/LogStore/classes/LogStore"
+  },
+  "next": {
+    "title": "Interface: CheckpointEnvelope",
+    "permalink": "/penn-blockchain-hackathon/docs/api/types/interfaces/CheckpointEnvelope"
+  }
+}

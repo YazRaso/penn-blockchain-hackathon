@@ -1,0 +1,23 @@
+{
+  "id": "api/artifacts/contracts/OnchainRegistry.sol/artifacts/index",
+  "title": "artifacts/contracts/OnchainRegistry.sol/artifacts",
+  "description": "Interfaces",
+  "source": "@site/docs/api/artifacts/contracts/OnchainRegistry.sol/artifacts/index.md",
+  "sourceDirName": "api/artifacts/contracts/OnchainRegistry.sol/artifacts",
+  "slug": "/api/artifacts/contracts/OnchainRegistry.sol/artifacts/",
+  "permalink": "/docs/api/artifacts/contracts/OnchainRegistry.sol/artifacts/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "artifacts/artifacts",
+    "permalink": "/docs/api/artifacts/artifacts/"
+  },
+  "next": {
+    "title": "Interface: AgentRegistry$Type",
+    "permalink": "/docs/api/artifacts/contracts/OnchainRegistry.sol/artifacts/interfaces/AgentRegistry$Type"
+  }
+}

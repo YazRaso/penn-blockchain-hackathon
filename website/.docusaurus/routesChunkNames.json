@@ -1,0 +1,285 @@
+{
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/docs-801": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
+  },
+  "/docs-754": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
+  },
+  "/docs-279": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/docs/api/-b2d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-5-e-8-853"
+  },
+  "/docs/api/adapters/vercel-ai/-172": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-adapters-vercel-ai-e-77-af0"
+  },
+  "/docs/api/adapters/vercel-ai/functions/createAgentStorageTools-4ad": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-adapters-vercel-ai-functions-create-agent-storage-tools-1-e-9-69e"
+  },
+  "/docs/api/AgentStorage/-f57": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-agent-storage-05-a-381"
+  },
+  "/docs/api/AgentStorage/classes/default-4c5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-agent-storage-classes-default-608-234"
+  },
+  "/docs/api/AgentStorage/interfaces/AgentStorageConfig-474": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-agent-storage-interfaces-agent-storage-config-165-7c0"
+  },
+  "/docs/api/constants/-c34": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-constants-3-a-4-f25"
+  },
+  "/docs/api/constants/interfaces/NetworkConstants-b09": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-constants-interfaces-network-constants-410-bc3"
+  },
+  "/docs/api/constants/type-aliases/NetworkName-a86": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-constants-type-aliases-network-name-424-497"
+  },
+  "/docs/api/constants/variables/NETWORK_CONSTANTS-1c2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-constants-variables-network-constants-58-c-5e1"
+  },
+  "/docs/api/errors/-f8b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-763-84b"
+  },
+  "/docs/api/errors/classes/AgentStorageError-2f9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-agent-storage-error-12-d-337"
+  },
+  "/docs/api/errors/classes/ConfigurationError-66a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-configuration-errore-98-b6f"
+  },
+  "/docs/api/errors/classes/CorruptionError-041": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-corruption-error-548-8ca"
+  },
+  "/docs/api/errors/classes/DataLostError-6dc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-data-lost-error-7-b-1-c49"
+  },
+  "/docs/api/errors/classes/DealExpiredError-282": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-deal-expired-errordca-34e"
+  },
+  "/docs/api/errors/classes/DealRejectedError-cb1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-deal-rejected-errordc-4-b3f"
+  },
+  "/docs/api/errors/classes/FatalError-5b2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-fatal-errorb-64-ad9"
+  },
+  "/docs/api/errors/classes/InsufficientFundsError-1fb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-insufficient-funds-error-3-c-3-b88"
+  },
+  "/docs/api/errors/classes/LowBudgetCallbackError-fc2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-low-budget-callback-error-053-05b"
+  },
+  "/docs/api/errors/classes/MaxTransactionCostExceededError-030": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-max-transaction-cost-exceeded-error-343-130"
+  },
+  "/docs/api/errors/classes/MissingConfigError-5bf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-missing-config-error-8-e-7-433"
+  },
+  "/docs/api/errors/classes/NetworkError-ee3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-network-error-661-7b5"
+  },
+  "/docs/api/errors/classes/PolicyViolationError-37e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-policy-violation-error-79-b-83f"
+  },
+  "/docs/api/errors/classes/ProviderBusyError-6f9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-provider-busy-error-65-f-347"
+  },
+  "/docs/api/errors/classes/RecoverableError-d0f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-recoverable-error-1-ff-dca"
+  },
+  "/docs/api/errors/classes/TransientError-c81": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-transient-error-2-cd-312"
+  },
+  "/docs/api/errors/classes/UnknownTriggerError-078": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-unknown-trigger-error-993-7a9"
+  },
+  "/docs/api/errors/classes/WalletAssertionError-a5f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-errors-classes-wallet-assertion-error-470-7ea"
+  },
+  "/docs/api/identity/AgentIdentity/-99c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-identity-agent-identity-b-5-a-9be"
+  },
+  "/docs/api/identity/AgentIdentity/classes/AgentIdentity-562": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-identity-agent-identity-classes-agent-identitydeb-51c"
+  },
+  "/docs/api/identity/AgentIdentity/interfaces/AgentCard-3d5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-identity-agent-identity-interfaces-agent-card-547-5ad"
+  },
+  "/docs/api/identity/AgentIdentity/interfaces/AgentEndpoint-d60": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-identity-agent-identity-interfaces-agent-endpoint-063-f00"
+  },
+  "/docs/api/identity/AgentIdentity/interfaces/AgentIdentityConfig-57c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-identity-agent-identity-interfaces-agent-identity-config-320-7c3"
+  },
+  "/docs/api/identity/AgentIdentity/interfaces/AgentRegistration-d86": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-identity-agent-identity-interfaces-agent-registration-6-e-9-c68"
+  },
+  "/docs/api/index/-c4f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-index-b-33-e97"
+  },
+  "/docs/api/modules-7b4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-modulesf-6-a-246"
+  },
+  "/docs/api/policy/-74b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-policy-589-36c"
+  },
+  "/docs/api/policy/classes/CheckpointPolicy-f09": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-policy-classes-checkpoint-policyf-7-c-b2a"
+  },
+  "/docs/api/storage/CheckpointStore/-35a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-storage-checkpoint-store-2-b-4-088"
+  },
+  "/docs/api/storage/CheckpointStore/classes/CheckpointStore-29f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-storage-checkpoint-store-classes-checkpoint-storef-06-50f"
+  },
+  "/docs/api/storage/LogStore/-846": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-storage-log-store-152-9fa"
+  },
+  "/docs/api/storage/LogStore/classes/LogStore-d76": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-storage-log-store-classes-log-store-848-854"
+  },
+  "/docs/api/types/-cdb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-types-636-fe7"
+  },
+  "/docs/api/types/interfaces/CheckpointEnvelope-7af": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-types-interfaces-checkpoint-envelopef-8-e-bc8"
+  },
+  "/docs/api/types/interfaces/CheckpointPolicyConfig-803": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-types-interfaces-checkpoint-policy-config-1-f-4-860"
+  },
+  "/docs/api/types/interfaces/HealthReport-053": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-types-interfaces-health-reportc-1-f-4c4"
+  },
+  "/docs/api/types/interfaces/LogEntry-025": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-types-interfaces-log-entrybdf-a61"
+  },
+  "/docs/api/types/interfaces/WalletConfiguration-c19": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-types-interfaces-wallet-configuration-96-d-fed"
+  },
+  "/docs/api/wallet/AgentWallet/-daa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-wallet-agent-wallet-c-49-a7e"
+  },
+  "/docs/api/wallet/AgentWallet/classes/AgentWallet-212": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-wallet-agent-wallet-classes-agent-wallet-0-d-2-190"
+  },
+  "/docs/examples/-4e6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-examples-bf-6-427"
+  },
+  "/docs/examples/calibnet-workflow-327": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-examples-calibnet-workflow-104-06e"
+  },
+  "/docs/examples/vercel-ai-adapter-2c5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-examples-vercel-ai-adapter-889-911"
+  },
+  "/docs/getting-started-2a1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-startedd-58-f94"
+  },
+  "/-e5f": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---a-74-9d6"
+    },
+    "config": "config---5-e-9-4f3"
+  }
+}

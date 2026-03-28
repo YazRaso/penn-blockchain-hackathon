@@ -1,0 +1,23 @@
+{
+  "id": "api/types/interfaces/CheckpointPolicyConfig",
+  "title": "Interface: CheckpointPolicyConfig",
+  "description": "Defined in5",
+  "source": "@site/docs/api/types/interfaces/CheckpointPolicyConfig.md",
+  "sourceDirName": "api/types/interfaces",
+  "slug": "/api/types/interfaces/CheckpointPolicyConfig",
+  "permalink": "/penn-blockchain-hackathon/docs/api/types/interfaces/CheckpointPolicyConfig",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Interface: CheckpointEnvelope",
+    "permalink": "/penn-blockchain-hackathon/docs/api/types/interfaces/CheckpointEnvelope"
+  },
+  "next": {
+    "title": "Interface: HealthReport",
+    "permalink": "/penn-blockchain-hackathon/docs/api/types/interfaces/HealthReport"
+  }
+}

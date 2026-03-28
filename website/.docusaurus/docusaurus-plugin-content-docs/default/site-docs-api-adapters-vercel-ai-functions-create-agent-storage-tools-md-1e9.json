@@ -1,0 +1,23 @@
+{
+  "id": "api/adapters/vercel-ai/functions/createAgentStorageTools",
+  "title": "Function: createAgentStorageTools()",
+  "description": "createAgentStorageTools(storage): object",
+  "source": "@site/docs/api/adapters/vercel-ai/functions/createAgentStorageTools.md",
+  "sourceDirName": "api/adapters/vercel-ai/functions",
+  "slug": "/api/adapters/vercel-ai/functions/createAgentStorageTools",
+  "permalink": "/docs/api/adapters/vercel-ai/functions/createAgentStorageTools",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "adapters/vercel-ai",
+    "permalink": "/docs/api/adapters/vercel-ai/"
+  },
+  "next": {
+    "title": "constants",
+    "permalink": "/docs/api/constants/"
+  }
+}

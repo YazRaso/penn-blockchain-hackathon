@@ -1,0 +1,19 @@
+{
+  "id": "api/wallet/AgentWallet/classes/AgentWallet",
+  "title": "Class: AgentWallet",
+  "description": "Defined in17",
+  "source": "@site/docs/api/wallet/AgentWallet/classes/AgentWallet.md",
+  "sourceDirName": "api/wallet/AgentWallet/classes",
+  "slug": "/api/wallet/AgentWallet/classes/AgentWallet",
+  "permalink": "/penn-blockchain-hackathon/docs/api/wallet/AgentWallet/classes/AgentWallet",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "wallet/AgentWallet",
+    "permalink": "/penn-blockchain-hackathon/docs/api/wallet/AgentWallet/"
+  }
+}

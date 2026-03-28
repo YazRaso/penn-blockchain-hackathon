@@ -1,0 +1,23 @@
+{
+  "id": "api/adapters/vercel-ai/index",
+  "title": "adapters/vercel-ai",
+  "description": "Functions",
+  "source": "@site/docs/api/adapters/vercel-ai/index.md",
+  "sourceDirName": "api/adapters/vercel-ai",
+  "slug": "/api/adapters/vercel-ai/",
+  "permalink": "/penn-blockchain-hackathon/docs/api/adapters/vercel-ai/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Interface: AgentStorageConfig",
+    "permalink": "/penn-blockchain-hackathon/docs/api/AgentStorage/interfaces/AgentStorageConfig"
+  },
+  "next": {
+    "title": "Function: createAgentStorageTools()",
+    "permalink": "/penn-blockchain-hackathon/docs/api/adapters/vercel-ai/functions/createAgentStorageTools"
+  }
+}

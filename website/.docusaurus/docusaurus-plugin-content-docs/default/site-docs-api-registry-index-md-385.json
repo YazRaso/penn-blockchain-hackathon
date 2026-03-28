@@ -1,0 +1,23 @@
+{
+  "id": "api/Registry/index",
+  "title": "Registry",
+  "description": "",
+  "source": "@site/docs/api/Registry/index.md",
+  "sourceDirName": "api/Registry",
+  "slug": "/api/Registry/",
+  "permalink": "/docs/api/Registry/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Interface: AgentStorageConfig",
+    "permalink": "/docs/api/AgentStorage/interfaces/AgentStorageConfig"
+  },
+  "next": {
+    "title": "adapters/vercel-ai",
+    "permalink": "/docs/api/adapters/vercel-ai/"
+  }
+}

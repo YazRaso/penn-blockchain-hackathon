@@ -1,0 +1,23 @@
+{
+  "id": "api/types/interfaces/CheckpointEnvelope",
+  "title": "Interface: CheckpointEnvelope",
+  "description": "Defined in29",
+  "source": "@site/docs/api/types/interfaces/CheckpointEnvelope.md",
+  "sourceDirName": "api/types/interfaces",
+  "slug": "/api/types/interfaces/CheckpointEnvelope",
+  "permalink": "/penn-blockchain-hackathon/docs/api/types/interfaces/CheckpointEnvelope",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "types",
+    "permalink": "/penn-blockchain-hackathon/docs/api/types/"
+  },
+  "next": {
+    "title": "Interface: CheckpointPolicyConfig",
+    "permalink": "/penn-blockchain-hackathon/docs/api/types/interfaces/CheckpointPolicyConfig"
+  }
+}

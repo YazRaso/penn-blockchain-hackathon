@@ -1,0 +1,23 @@
+{
+  "id": "api/artifacts/contracts/OnchainRegistry.sol/artifacts/interfaces/AgentRegistry$Type",
+  "title": "Interface: AgentRegistry$Type",
+  "description": "Defined in7",
+  "source": "@site/docs/api/artifacts/contracts/OnchainRegistry.sol/artifacts/interfaces/AgentRegistry$Type.md",
+  "sourceDirName": "api/artifacts/contracts/OnchainRegistry.sol/artifacts/interfaces",
+  "slug": "/api/artifacts/contracts/OnchainRegistry.sol/artifacts/interfaces/AgentRegistry$Type",
+  "permalink": "/docs/api/artifacts/contracts/OnchainRegistry.sol/artifacts/interfaces/AgentRegistry$Type",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "artifacts/contracts/OnchainRegistry.sol/artifacts",
+    "permalink": "/docs/api/artifacts/contracts/OnchainRegistry.sol/artifacts/"
+  },
+  "next": {
+    "title": "errors",
+    "permalink": "/docs/api/errors/"
+  }
+}
