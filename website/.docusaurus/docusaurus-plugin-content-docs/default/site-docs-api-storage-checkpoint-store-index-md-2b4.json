@@ -1,0 +1,23 @@
+{
+  "id": "api/storage/CheckpointStore/index",
+  "title": "storage/CheckpointStore",
+  "description": "Classes",
+  "source": "@site/docs/api/storage/CheckpointStore/index.md",
+  "sourceDirName": "api/storage/CheckpointStore",
+  "slug": "/api/storage/CheckpointStore/",
+  "permalink": "/penn-blockchain-hackathon/docs/api/storage/CheckpointStore/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Class: CheckpointPolicy",
+    "permalink": "/penn-blockchain-hackathon/docs/api/policy/classes/CheckpointPolicy"
+  },
+  "next": {
+    "title": "Class: CheckpointStore",
+    "permalink": "/penn-blockchain-hackathon/docs/api/storage/CheckpointStore/classes/CheckpointStore"
+  }
+}

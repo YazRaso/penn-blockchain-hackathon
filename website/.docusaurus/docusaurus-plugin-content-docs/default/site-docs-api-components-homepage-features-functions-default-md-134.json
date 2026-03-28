@@ -1,0 +1,23 @@
+{
+  "id": "api/components/HomepageFeatures/functions/default",
+  "title": "Function: default()",
+  "description": "default(): Element",
+  "source": "@site/docs/api/components/HomepageFeatures/functions/default.md",
+  "sourceDirName": "api/components/HomepageFeatures/functions",
+  "slug": "/api/components/HomepageFeatures/functions/default",
+  "permalink": "/docs/api/components/HomepageFeatures/functions/default",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "components/HomepageFeatures",
+    "permalink": "/docs/api/components/HomepageFeatures/"
+  },
+  "next": {
+    "title": "errors",
+    "permalink": "/docs/api/errors/"
+  }
+}

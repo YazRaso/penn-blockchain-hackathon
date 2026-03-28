@@ -1,0 +1,23 @@
+{
+  "id": "api/storage/CheckpointStore/classes/CheckpointStore",
+  "title": "Class: CheckpointStore",
+  "description": "Defined in38",
+  "source": "@site/docs/api/storage/CheckpointStore/classes/CheckpointStore.md",
+  "sourceDirName": "api/storage/CheckpointStore/classes",
+  "slug": "/api/storage/CheckpointStore/classes/CheckpointStore",
+  "permalink": "/penn-blockchain-hackathon/docs/api/storage/CheckpointStore/classes/CheckpointStore",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "storage/CheckpointStore",
+    "permalink": "/penn-blockchain-hackathon/docs/api/storage/CheckpointStore/"
+  },
+  "next": {
+    "title": "storage/LogStore",
+    "permalink": "/penn-blockchain-hackathon/docs/api/storage/LogStore/"
+  }
+}

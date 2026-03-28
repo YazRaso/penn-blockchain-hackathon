@@ -1,0 +1,26 @@
+{
+  "id": "examples/index",
+  "title": "Examples",
+  "description": "This section contains runnable usage patterns for the SDK.",
+  "source": "@site/docs/examples/index.md",
+  "sourceDirName": "examples",
+  "slug": "/examples/",
+  "permalink": "/penn-blockchain-hackathon/docs/examples/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/penn-blockchain-hackathon/docs/getting-started"
+  },
+  "next": {
+    "title": "Calibnet Workflow Example",
+    "permalink": "/penn-blockchain-hackathon/docs/examples/calibnet-workflow"
+  }
+}

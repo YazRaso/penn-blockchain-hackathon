@@ -1,0 +1,23 @@
+{
+  "id": "api/constants/variables/NETWORK_CONSTANTS",
+  "title": "Variable: NETWORK\\_CONSTANTS",
+  "description": "const NETWORK\\_CONSTANTS: Record\\",
+  "source": "@site/docs/api/constants/variables/NETWORK_CONSTANTS.md",
+  "sourceDirName": "api/constants/variables",
+  "slug": "/api/constants/variables/NETWORK_CONSTANTS",
+  "permalink": "/penn-blockchain-hackathon/docs/api/constants/variables/NETWORK_CONSTANTS",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Type Alias: NetworkName",
+    "permalink": "/penn-blockchain-hackathon/docs/api/constants/type-aliases/NetworkName"
+  },
+  "next": {
+    "title": "errors",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/"
+  }
+}

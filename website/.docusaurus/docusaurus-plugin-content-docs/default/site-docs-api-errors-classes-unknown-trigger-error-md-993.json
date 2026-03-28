@@ -1,0 +1,23 @@
+{
+  "id": "api/errors/classes/UnknownTriggerError",
+  "title": "Class: UnknownTriggerError",
+  "description": "Defined in55",
+  "source": "@site/docs/api/errors/classes/UnknownTriggerError.md",
+  "sourceDirName": "api/errors/classes",
+  "slug": "/api/errors/classes/UnknownTriggerError",
+  "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/UnknownTriggerError",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Class: TransientError",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/TransientError"
+  },
+  "next": {
+    "title": "Class: WalletAssertionError",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/WalletAssertionError"
+  }
+}

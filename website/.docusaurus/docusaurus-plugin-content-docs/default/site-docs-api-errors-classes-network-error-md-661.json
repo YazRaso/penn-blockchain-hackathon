@@ -1,0 +1,23 @@
+{
+  "id": "api/errors/classes/NetworkError",
+  "title": "Class: NetworkError",
+  "description": "Defined in19",
+  "source": "@site/docs/api/errors/classes/NetworkError.md",
+  "sourceDirName": "api/errors/classes",
+  "slug": "/api/errors/classes/NetworkError",
+  "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/NetworkError",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Class: MissingConfigError",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/MissingConfigError"
+  },
+  "next": {
+    "title": "Class: PolicyViolationError",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/PolicyViolationError"
+  }
+}

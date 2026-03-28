@@ -1,0 +1,23 @@
+{
+  "id": "api/errors/index",
+  "title": "errors",
+  "description": "Classes",
+  "source": "@site/docs/api/errors/index.md",
+  "sourceDirName": "api/errors",
+  "slug": "/api/errors/",
+  "permalink": "/penn-blockchain-hackathon/docs/api/errors/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Variable: NETWORK\\_CONSTANTS",
+    "permalink": "/penn-blockchain-hackathon/docs/api/constants/variables/NETWORK_CONSTANTS"
+  },
+  "next": {
+    "title": "Class: AgentStorageError",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/AgentStorageError"
+  }
+}

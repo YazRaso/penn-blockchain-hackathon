@@ -1,0 +1,23 @@
+{
+  "id": "api/constants/type-aliases/NetworkName",
+  "title": "Type Alias: NetworkName",
+  "description": "NetworkName = \"calibnet\" \\| \"mainnet\"",
+  "source": "@site/docs/api/constants/type-aliases/NetworkName.md",
+  "sourceDirName": "api/constants/type-aliases",
+  "slug": "/api/constants/type-aliases/NetworkName",
+  "permalink": "/penn-blockchain-hackathon/docs/api/constants/type-aliases/NetworkName",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Interface: NetworkConstants",
+    "permalink": "/penn-blockchain-hackathon/docs/api/constants/interfaces/NetworkConstants"
+  },
+  "next": {
+    "title": "Variable: NETWORK\\_CONSTANTS",
+    "permalink": "/penn-blockchain-hackathon/docs/api/constants/variables/NETWORK_CONSTANTS"
+  }
+}

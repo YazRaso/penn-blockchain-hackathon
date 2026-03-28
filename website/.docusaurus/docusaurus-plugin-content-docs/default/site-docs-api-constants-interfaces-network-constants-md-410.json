@@ -1,0 +1,23 @@
+{
+  "id": "api/constants/interfaces/NetworkConstants",
+  "title": "Interface: NetworkConstants",
+  "description": "Defined in7",
+  "source": "@site/docs/api/constants/interfaces/NetworkConstants.md",
+  "sourceDirName": "api/constants/interfaces",
+  "slug": "/api/constants/interfaces/NetworkConstants",
+  "permalink": "/penn-blockchain-hackathon/docs/api/constants/interfaces/NetworkConstants",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "constants",
+    "permalink": "/penn-blockchain-hackathon/docs/api/constants/"
+  },
+  "next": {
+    "title": "Type Alias: NetworkName",
+    "permalink": "/penn-blockchain-hackathon/docs/api/constants/type-aliases/NetworkName"
+  }
+}

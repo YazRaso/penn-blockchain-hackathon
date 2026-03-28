@@ -1,0 +1,23 @@
+{
+  "id": "api/AgentStorage/classes/default",
+  "title": "Class: default",
+  "description": "Defined in63",
+  "source": "@site/docs/api/AgentStorage/classes/default.md",
+  "sourceDirName": "api/AgentStorage/classes",
+  "slug": "/api/AgentStorage/classes/default",
+  "permalink": "/penn-blockchain-hackathon/docs/api/AgentStorage/classes/default",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "AgentStorage",
+    "permalink": "/penn-blockchain-hackathon/docs/api/AgentStorage/"
+  },
+  "next": {
+    "title": "Interface: AgentStorageConfig",
+    "permalink": "/penn-blockchain-hackathon/docs/api/AgentStorage/interfaces/AgentStorageConfig"
+  }
+}

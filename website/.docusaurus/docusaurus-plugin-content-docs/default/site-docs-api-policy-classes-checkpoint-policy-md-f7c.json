@@ -1,0 +1,23 @@
+{
+  "id": "api/policy/classes/CheckpointPolicy",
+  "title": "Class: CheckpointPolicy",
+  "description": "Defined in12",
+  "source": "@site/docs/api/policy/classes/CheckpointPolicy.md",
+  "sourceDirName": "api/policy/classes",
+  "slug": "/api/policy/classes/CheckpointPolicy",
+  "permalink": "/penn-blockchain-hackathon/docs/api/policy/classes/CheckpointPolicy",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "policy",
+    "permalink": "/penn-blockchain-hackathon/docs/api/policy/"
+  },
+  "next": {
+    "title": "storage/CheckpointStore",
+    "permalink": "/penn-blockchain-hackathon/docs/api/storage/CheckpointStore/"
+  }
+}

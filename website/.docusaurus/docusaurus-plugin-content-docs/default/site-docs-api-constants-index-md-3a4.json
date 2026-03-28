@@ -1,0 +1,23 @@
+{
+  "id": "api/constants/index",
+  "title": "constants",
+  "description": "Interfaces",
+  "source": "@site/docs/api/constants/index.md",
+  "sourceDirName": "api/constants",
+  "slug": "/api/constants/",
+  "permalink": "/docs/api/constants/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Function: createAgentStorageTools()",
+    "permalink": "/docs/api/adapters/vercel-ai/functions/createAgentStorageTools"
+  },
+  "next": {
+    "title": "Interface: NetworkConstants",
+    "permalink": "/docs/api/constants/interfaces/NetworkConstants"
+  }
+}

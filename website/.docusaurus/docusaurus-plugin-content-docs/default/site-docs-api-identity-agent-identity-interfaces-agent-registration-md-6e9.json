@@ -1,0 +1,23 @@
+{
+  "id": "api/identity/AgentIdentity/interfaces/AgentRegistration",
+  "title": "Interface: AgentRegistration",
+  "description": "Defined in85",
+  "source": "@site/docs/api/identity/AgentIdentity/interfaces/AgentRegistration.md",
+  "sourceDirName": "api/identity/AgentIdentity/interfaces",
+  "slug": "/api/identity/AgentIdentity/interfaces/AgentRegistration",
+  "permalink": "/penn-blockchain-hackathon/docs/api/identity/AgentIdentity/interfaces/AgentRegistration",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Interface: AgentIdentityConfig",
+    "permalink": "/penn-blockchain-hackathon/docs/api/identity/AgentIdentity/interfaces/AgentIdentityConfig"
+  },
+  "next": {
+    "title": "index",
+    "permalink": "/penn-blockchain-hackathon/docs/api/index/"
+  }
+}

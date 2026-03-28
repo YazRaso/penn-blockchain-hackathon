@@ -1,0 +1,27 @@
+{
+  "id": "examples/calibnet-workflow",
+  "title": "Calibnet Workflow Example",
+  "description": "This is a full SDK usage script for calibnet.",
+  "source": "@site/docs/examples/calibnet-workflow.md",
+  "sourceDirName": "examples",
+  "slug": "/examples/calibnet-workflow",
+  "permalink": "/penn-blockchain-hackathon/docs/examples/calibnet-workflow",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "calibnet-workflow",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Examples",
+    "permalink": "/penn-blockchain-hackathon/docs/examples/"
+  },
+  "next": {
+    "title": "Vercel AI Adapter",
+    "permalink": "/penn-blockchain-hackathon/docs/examples/vercel-ai-adapter"
+  }
+}

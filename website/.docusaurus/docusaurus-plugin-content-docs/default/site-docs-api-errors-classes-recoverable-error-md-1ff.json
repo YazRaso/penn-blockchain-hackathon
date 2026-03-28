@@ -1,0 +1,23 @@
+{
+  "id": "api/errors/classes/RecoverableError",
+  "title": "Class: RecoverableError",
+  "description": "Defined in29",
+  "source": "@site/docs/api/errors/classes/RecoverableError.md",
+  "sourceDirName": "api/errors/classes",
+  "slug": "/api/errors/classes/RecoverableError",
+  "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/RecoverableError",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Class: ProviderBusyError",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/ProviderBusyError"
+  },
+  "next": {
+    "title": "Class: TransientError",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/TransientError"
+  }
+}

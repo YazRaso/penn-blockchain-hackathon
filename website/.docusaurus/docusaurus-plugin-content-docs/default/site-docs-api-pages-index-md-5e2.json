@@ -1,0 +1,23 @@
+{
+  "id": "api/pages/index",
+  "title": "pages",
+  "description": "Functions",
+  "source": "@site/docs/api/pages/index.md",
+  "sourceDirName": "api/pages",
+  "slug": "/api/pages/",
+  "permalink": "/docs/api/pages/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Documentation",
+    "permalink": "/docs/api/"
+  },
+  "next": {
+    "title": "Function: default()",
+    "permalink": "/docs/api/pages/functions/default"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "api/errors/classes/PolicyViolationError",
+  "title": "Class: PolicyViolationError",
+  "description": "Defined in61",
+  "source": "@site/docs/api/errors/classes/PolicyViolationError.md",
+  "sourceDirName": "api/errors/classes",
+  "slug": "/api/errors/classes/PolicyViolationError",
+  "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/PolicyViolationError",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Class: NetworkError",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/NetworkError"
+  },
+  "next": {
+    "title": "Class: ProviderBusyError",
+    "permalink": "/penn-blockchain-hackathon/docs/api/errors/classes/ProviderBusyError"
+  }
+}

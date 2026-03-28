@@ -1,0 +1,23 @@
+{
+  "id": "api/storage/LogStore/index",
+  "title": "storage/LogStore",
+  "description": "Classes",
+  "source": "@site/docs/api/storage/LogStore/index.md",
+  "sourceDirName": "api/storage/LogStore",
+  "slug": "/api/storage/LogStore/",
+  "permalink": "/penn-blockchain-hackathon/docs/api/storage/LogStore/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "apiSidebar",
+  "previous": {
+    "title": "Class: CheckpointStore",
+    "permalink": "/penn-blockchain-hackathon/docs/api/storage/CheckpointStore/classes/CheckpointStore"
+  },
+  "next": {
+    "title": "Class: LogStore",
+    "permalink": "/penn-blockchain-hackathon/docs/api/storage/LogStore/classes/LogStore"
+  }
+}
